@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3A513D1EEFEFDF0013D13A /* RealTimeProcessing.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A513B1EEFEFDF0013D13A /* RealTimeProcessing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A514B1EEFF15D0013D13A /* HUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51491EEFF15D0013D13A /* HUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A514C1EEFF15D0013D13A /* HUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A514A1EEFF15D0013D13A /* HUtils.m */; };
+		FF3A514F1EEFF17C0013D13A /* HAlphaFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A514D1EEFF17C0013D13A /* HAlphaFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51501EEFF17C0013D13A /* HAlphaFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A514E1EEFF17C0013D13A /* HAlphaFilter.m */; };
+		FF3A51651EEFF19B0013D13A /* HGLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51511EEFF19B0013D13A /* HGLUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51661EEFF19B0013D13A /* HGLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51521EEFF19B0013D13A /* HGLUtils.m */; };
+		FF3A51671EEFF19B0013D13A /* HESProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51531EEFF19B0013D13A /* HESProgram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51681EEFF19B0013D13A /* HESProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51541EEFF19B0013D13A /* HESProgram.m */; };
+		FF3A51691EEFF19B0013D13A /* HFBO.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51551EEFF19B0013D13A /* HFBO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A516A1EEFF19B0013D13A /* HFBO.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51561EEFF19B0013D13A /* HFBO.m */; };
+		FF3A516B1EEFF19B0013D13A /* HNodeOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51571EEFF19B0013D13A /* HNodeOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A516C1EEFF19B0013D13A /* HNodeOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51581EEFF19B0013D13A /* HNodeOutput.m */; };
+		FF3A516D1EEFF19B0013D13A /* HNodeImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51591EEFF19B0013D13A /* HNodeImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A516E1EEFF19B0013D13A /* HNodeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A515A1EEFF19B0013D13A /* HNodeImageView.m */; };
+		FF3A516F1EEFF19B0013D13A /* HNodeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A515B1EEFF19B0013D13A /* HNodeLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51701EEFF19B0013D13A /* HNodeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A515C1EEFF19B0013D13A /* HNodeLayer.m */; };
+		FF3A51711EEFF19B0013D13A /* HESContext.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A515D1EEFF19B0013D13A /* HESContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51721EEFF19B0013D13A /* HESContext.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A515E1EEFF19B0013D13A /* HESContext.m */; };
+		FF3A51731EEFF19B0013D13A /* HESNode.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A515F1EEFF19B0013D13A /* HESNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51741EEFF19B0013D13A /* HESNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51601EEFF19B0013D13A /* HESNode.m */; };
+		FF3A51751EEFF19B0013D13A /* HESModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51611EEFF19B0013D13A /* HESModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51761EEFF19B0013D13A /* HESModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51621EEFF19B0013D13A /* HESModel.m */; };
+		FF3A51771EEFF19B0013D13A /* HESVideoCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51631EEFF19B0013D13A /* HESVideoCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51781EEFF19B0013D13A /* HESVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51641EEFF19B0013D13A /* HESVideoCamera.m */; };
+		FF3A517D1EEFF1D80013D13A /* alphaShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A517B1EEFF1D80013D13A /* alphaShader.fsh */; };
+		FF3A517E1EEFF1D80013D13A /* blendShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A517C1EEFF1D80013D13A /* blendShader.fsh */; };
+		FF3A518E1EEFF2090013D13A /* HMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51891EEFF2090013D13A /* HMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A518F1EEFF2090013D13A /* HColorConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A518A1EEFF2090013D13A /* HColorConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51901EEFF2090013D13A /* HColorConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A518B1EEFF2090013D13A /* HColorConversion.m */; };
+		FF3A51911EEFF2090013D13A /* HLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A518C1EEFF2090013D13A /* HLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51921EEFF2090013D13A /* HLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A518D1EEFF2090013D13A /* HLogger.m */; };
+		FF3A51BE1EEFF8130013D13A /* HNodeInput.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51B21EEFF8130013D13A /* HNodeInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51BF1EEFF8130013D13A /* HNodeInput.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51B31EEFF8130013D13A /* HNodeInput.m */; };
+		FF3A51C01EEFF8130013D13A /* HNv12InputNode.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51B41EEFF8130013D13A /* HNv12InputNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51C11EEFF8130013D13A /* HNv12InputNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51B51EEFF8130013D13A /* HNv12InputNode.m */; };
+		FF3A51C21EEFF8130013D13A /* HI420Input.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51B61EEFF8130013D13A /* HI420Input.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51C31EEFF8130013D13A /* HI420Input.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51B71EEFF8130013D13A /* HI420Input.m */; };
+		FF3A51C41EEFF8130013D13A /* HImageInput.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51B81EEFF8130013D13A /* HImageInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51C51EEFF8130013D13A /* HImageInput.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51B91EEFF8130013D13A /* HImageInput.m */; };
+		FF3A51C61EEFF8130013D13A /* HCVPixelBufferInput.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51BA1EEFF8130013D13A /* HCVPixelBufferInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51C71EEFF8130013D13A /* HCVPixelBufferInput.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51BB1EEFF8130013D13A /* HCVPixelBufferInput.m */; };
+		FF3A51C81EEFF8130013D13A /* HCGContextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51BC1EEFF8130013D13A /* HCGContextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A51C91EEFF8130013D13A /* HCGContextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51BD1EEFF8130013D13A /* HCGContextInput.m */; };
+		FF3A51F11EF001BF0013D13A /* cvPixelBufferShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51EC1EF001BF0013D13A /* cvPixelBufferShader.fsh */; };
+		FF3A51F21EF001BF0013D13A /* i420Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51ED1EF001BF0013D13A /* i420Shader.fsh */; };
+		FF3A51F31EF001BF0013D13A /* modelShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51EE1EF001BF0013D13A /* modelShader.fsh */; };
+		FF3A51F41EF001BF0013D13A /* modelShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51EF1EF001BF0013D13A /* modelShader.vsh */; };
+		FF3A51F51EF001BF0013D13A /* nv12Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51F01EF001BF0013D13A /* nv12Shader.fsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF3A51381EEFEFDF0013D13A /* RealTimeProcessing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealTimeProcessing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3A513B1EEFEFDF0013D13A /* RealTimeProcessing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealTimeProcessing.h; sourceTree = "<group>"; };
+		FF3A513C1EEFEFDF0013D13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3A51491EEFF15D0013D13A /* HUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUtils.h; sourceTree = "<group>"; };
+		FF3A514A1EEFF15D0013D13A /* HUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUtils.m; sourceTree = "<group>"; };
+		FF3A514D1EEFF17C0013D13A /* HAlphaFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAlphaFilter.h; sourceTree = "<group>"; };
+		FF3A514E1EEFF17C0013D13A /* HAlphaFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAlphaFilter.m; sourceTree = "<group>"; };
+		FF3A51511EEFF19B0013D13A /* HGLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGLUtils.h; sourceTree = "<group>"; };
+		FF3A51521EEFF19B0013D13A /* HGLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGLUtils.m; sourceTree = "<group>"; };
+		FF3A51531EEFF19B0013D13A /* HESProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HESProgram.h; sourceTree = "<group>"; };
+		FF3A51541EEFF19B0013D13A /* HESProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HESProgram.m; sourceTree = "<group>"; };
+		FF3A51551EEFF19B0013D13A /* HFBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFBO.h; sourceTree = "<group>"; };
+		FF3A51561EEFF19B0013D13A /* HFBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFBO.m; sourceTree = "<group>"; };
+		FF3A51571EEFF19B0013D13A /* HNodeOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNodeOutput.h; sourceTree = "<group>"; };
+		FF3A51581EEFF19B0013D13A /* HNodeOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNodeOutput.m; sourceTree = "<group>"; };
+		FF3A51591EEFF19B0013D13A /* HNodeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNodeImageView.h; sourceTree = "<group>"; };
+		FF3A515A1EEFF19B0013D13A /* HNodeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNodeImageView.m; sourceTree = "<group>"; };
+		FF3A515B1EEFF19B0013D13A /* HNodeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNodeLayer.h; sourceTree = "<group>"; };
+		FF3A515C1EEFF19B0013D13A /* HNodeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNodeLayer.m; sourceTree = "<group>"; };
+		FF3A515D1EEFF19B0013D13A /* HESContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HESContext.h; sourceTree = "<group>"; };
+		FF3A515E1EEFF19B0013D13A /* HESContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HESContext.m; sourceTree = "<group>"; };
+		FF3A515F1EEFF19B0013D13A /* HESNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HESNode.h; sourceTree = "<group>"; };
+		FF3A51601EEFF19B0013D13A /* HESNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HESNode.m; sourceTree = "<group>"; };
+		FF3A51611EEFF19B0013D13A /* HESModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HESModel.h; sourceTree = "<group>"; };
+		FF3A51621EEFF19B0013D13A /* HESModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HESModel.m; sourceTree = "<group>"; };
+		FF3A51631EEFF19B0013D13A /* HESVideoCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HESVideoCamera.h; sourceTree = "<group>"; };
+		FF3A51641EEFF19B0013D13A /* HESVideoCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HESVideoCamera.m; sourceTree = "<group>"; };
+		FF3A517B1EEFF1D80013D13A /* alphaShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = alphaShader.fsh; sourceTree = "<group>"; };
+		FF3A517C1EEFF1D80013D13A /* blendShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = blendShader.fsh; sourceTree = "<group>"; };
+		FF3A51891EEFF2090013D13A /* HMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMacros.h; sourceTree = "<group>"; };
+		FF3A518A1EEFF2090013D13A /* HColorConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HColorConversion.h; sourceTree = "<group>"; };
+		FF3A518B1EEFF2090013D13A /* HColorConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HColorConversion.m; sourceTree = "<group>"; };
+		FF3A518C1EEFF2090013D13A /* HLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLogger.h; sourceTree = "<group>"; };
+		FF3A518D1EEFF2090013D13A /* HLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLogger.m; sourceTree = "<group>"; };
+		FF3A51B21EEFF8130013D13A /* HNodeInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNodeInput.h; sourceTree = "<group>"; };
+		FF3A51B31EEFF8130013D13A /* HNodeInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNodeInput.m; sourceTree = "<group>"; };
+		FF3A51B41EEFF8130013D13A /* HNv12InputNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNv12InputNode.h; sourceTree = "<group>"; };
+		FF3A51B51EEFF8130013D13A /* HNv12InputNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNv12InputNode.m; sourceTree = "<group>"; };
+		FF3A51B61EEFF8130013D13A /* HI420Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HI420Input.h; sourceTree = "<group>"; };
+		FF3A51B71EEFF8130013D13A /* HI420Input.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HI420Input.m; sourceTree = "<group>"; };
+		FF3A51B81EEFF8130013D13A /* HImageInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HImageInput.h; sourceTree = "<group>"; };
+		FF3A51B91EEFF8130013D13A /* HImageInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HImageInput.m; sourceTree = "<group>"; };
+		FF3A51BA1EEFF8130013D13A /* HCVPixelBufferInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCVPixelBufferInput.h; sourceTree = "<group>"; };
+		FF3A51BB1EEFF8130013D13A /* HCVPixelBufferInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCVPixelBufferInput.m; sourceTree = "<group>"; };
+		FF3A51BC1EEFF8130013D13A /* HCGContextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCGContextInput.h; sourceTree = "<group>"; };
+		FF3A51BD1EEFF8130013D13A /* HCGContextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCGContextInput.m; sourceTree = "<group>"; };
+		FF3A51CA1EEFF97A0013D13A /* HRealTimeProcessing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRealTimeProcessing.h; sourceTree = "<group>"; };
+		FF3A51EC1EF001BF0013D13A /* cvPixelBufferShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = cvPixelBufferShader.fsh; sourceTree = "<group>"; };
+		FF3A51ED1EF001BF0013D13A /* i420Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = i420Shader.fsh; sourceTree = "<group>"; };
+		FF3A51EE1EF001BF0013D13A /* modelShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = modelShader.fsh; sourceTree = "<group>"; };
+		FF3A51EF1EF001BF0013D13A /* modelShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = modelShader.vsh; sourceTree = "<group>"; };
+		FF3A51F01EF001BF0013D13A /* nv12Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = nv12Shader.fsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF3A51341EEFEFDF0013D13A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF3A512E1EEFEFDF0013D13A = {
+			isa = PBXGroup;
+			children = (
+				FF3A51CA1EEFF97A0013D13A /* HRealTimeProcessing.h */,
+				FF3A51431EEFF14D0013D13A /* commons */,
+				FF3A51441EEFF14D0013D13A /* core */,
+				FF3A51451EEFF14D0013D13A /* filters */,
+				FF3A51461EEFF14D0013D13A /* input */,
+				FF3A51471EEFF14D0013D13A /* RealTime-shaders */,
+				FF3A51481EEFF14D0013D13A /* utils */,
+				FF3A513A1EEFEFDF0013D13A /* RealTimeProcessing */,
+				FF3A51391EEFEFDF0013D13A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3A51391EEFEFDF0013D13A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51381EEFEFDF0013D13A /* RealTimeProcessing.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3A513A1EEFEFDF0013D13A /* RealTimeProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A513B1EEFEFDF0013D13A /* RealTimeProcessing.h */,
+				FF3A513C1EEFEFDF0013D13A /* Info.plist */,
+			);
+			path = RealTimeProcessing;
+			sourceTree = "<group>";
+		};
+		FF3A51431EEFF14D0013D13A /* commons */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51891EEFF2090013D13A /* HMacros.h */,
+				FF3A518A1EEFF2090013D13A /* HColorConversion.h */,
+				FF3A518B1EEFF2090013D13A /* HColorConversion.m */,
+				FF3A518C1EEFF2090013D13A /* HLogger.h */,
+				FF3A518D1EEFF2090013D13A /* HLogger.m */,
+			);
+			name = commons;
+			path = RealTimeProcessing/commons;
+			sourceTree = "<group>";
+		};
+		FF3A51441EEFF14D0013D13A /* core */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51511EEFF19B0013D13A /* HGLUtils.h */,
+				FF3A51521EEFF19B0013D13A /* HGLUtils.m */,
+				FF3A51531EEFF19B0013D13A /* HESProgram.h */,
+				FF3A51541EEFF19B0013D13A /* HESProgram.m */,
+				FF3A51551EEFF19B0013D13A /* HFBO.h */,
+				FF3A51561EEFF19B0013D13A /* HFBO.m */,
+				FF3A51571EEFF19B0013D13A /* HNodeOutput.h */,
+				FF3A51581EEFF19B0013D13A /* HNodeOutput.m */,
+				FF3A51591EEFF19B0013D13A /* HNodeImageView.h */,
+				FF3A515A1EEFF19B0013D13A /* HNodeImageView.m */,
+				FF3A515B1EEFF19B0013D13A /* HNodeLayer.h */,
+				FF3A515C1EEFF19B0013D13A /* HNodeLayer.m */,
+				FF3A515D1EEFF19B0013D13A /* HESContext.h */,
+				FF3A515E1EEFF19B0013D13A /* HESContext.m */,
+				FF3A515F1EEFF19B0013D13A /* HESNode.h */,
+				FF3A51601EEFF19B0013D13A /* HESNode.m */,
+				FF3A51611EEFF19B0013D13A /* HESModel.h */,
+				FF3A51621EEFF19B0013D13A /* HESModel.m */,
+				FF3A51631EEFF19B0013D13A /* HESVideoCamera.h */,
+				FF3A51641EEFF19B0013D13A /* HESVideoCamera.m */,
+			);
+			name = core;
+			path = RealTimeProcessing/core;
+			sourceTree = "<group>";
+		};
+		FF3A51451EEFF14D0013D13A /* filters */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A514D1EEFF17C0013D13A /* HAlphaFilter.h */,
+				FF3A514E1EEFF17C0013D13A /* HAlphaFilter.m */,
+			);
+			name = filters;
+			path = RealTimeProcessing/filters;
+			sourceTree = "<group>";
+		};
+		FF3A51461EEFF14D0013D13A /* input */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51B21EEFF8130013D13A /* HNodeInput.h */,
+				FF3A51B31EEFF8130013D13A /* HNodeInput.m */,
+				FF3A51B41EEFF8130013D13A /* HNv12InputNode.h */,
+				FF3A51B51EEFF8130013D13A /* HNv12InputNode.m */,
+				FF3A51B61EEFF8130013D13A /* HI420Input.h */,
+				FF3A51B71EEFF8130013D13A /* HI420Input.m */,
+				FF3A51B81EEFF8130013D13A /* HImageInput.h */,
+				FF3A51B91EEFF8130013D13A /* HImageInput.m */,
+				FF3A51BA1EEFF8130013D13A /* HCVPixelBufferInput.h */,
+				FF3A51BB1EEFF8130013D13A /* HCVPixelBufferInput.m */,
+				FF3A51BC1EEFF8130013D13A /* HCGContextInput.h */,
+				FF3A51BD1EEFF8130013D13A /* HCGContextInput.m */,
+			);
+			name = input;
+			path = RealTimeProcessing/input;
+			sourceTree = "<group>";
+		};
+		FF3A51471EEFF14D0013D13A /* RealTime-shaders */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51791EEFF1C90013D13A /* bases */,
+				FF3A517A1EEFF1C90013D13A /* effects */,
+			);
+			name = "RealTime-shaders";
+			path = RealTimeProcessing/shaders;
+			sourceTree = "<group>";
+		};
+		FF3A51481EEFF14D0013D13A /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51491EEFF15D0013D13A /* HUtils.h */,
+				FF3A514A1EEFF15D0013D13A /* HUtils.m */,
+			);
+			name = utils;
+			path = RealTimeProcessing/utils;
+			sourceTree = "<group>";
+		};
+		FF3A51791EEFF1C90013D13A /* bases */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51EC1EF001BF0013D13A /* cvPixelBufferShader.fsh */,
+				FF3A51ED1EF001BF0013D13A /* i420Shader.fsh */,
+				FF3A51EE1EF001BF0013D13A /* modelShader.fsh */,
+				FF3A51EF1EF001BF0013D13A /* modelShader.vsh */,
+				FF3A51F01EF001BF0013D13A /* nv12Shader.fsh */,
+			);
+			path = bases;
+			sourceTree = "<group>";
+		};
+		FF3A517A1EEFF1C90013D13A /* effects */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A517B1EEFF1D80013D13A /* alphaShader.fsh */,
+				FF3A517C1EEFF1D80013D13A /* blendShader.fsh */,
+			);
+			path = effects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FF3A51351EEFEFDF0013D13A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3A518E1EEFF2090013D13A /* HMacros.h in Headers */,
+				FF3A51651EEFF19B0013D13A /* HGLUtils.h in Headers */,
+				FF3A51731EEFF19B0013D13A /* HESNode.h in Headers */,
+				FF3A513D1EEFEFDF0013D13A /* RealTimeProcessing.h in Headers */,
+				FF3A518F1EEFF2090013D13A /* HColorConversion.h in Headers */,
+				FF3A516F1EEFF19B0013D13A /* HNodeLayer.h in Headers */,
+				FF3A516D1EEFF19B0013D13A /* HNodeImageView.h in Headers */,
+				FF3A51911EEFF2090013D13A /* HLogger.h in Headers */,
+				FF3A516B1EEFF19B0013D13A /* HNodeOutput.h in Headers */,
+				FF3A51771EEFF19B0013D13A /* HESVideoCamera.h in Headers */,
+				FF3A51711EEFF19B0013D13A /* HESContext.h in Headers */,
+				FF3A51671EEFF19B0013D13A /* HESProgram.h in Headers */,
+				FF3A51C81EEFF8130013D13A /* HCGContextInput.h in Headers */,
+				FF3A51C61EEFF8130013D13A /* HCVPixelBufferInput.h in Headers */,
+				FF3A51C01EEFF8130013D13A /* HNv12InputNode.h in Headers */,
+				FF3A51C41EEFF8130013D13A /* HImageInput.h in Headers */,
+				FF3A51C21EEFF8130013D13A /* HI420Input.h in Headers */,
+				FF3A51BE1EEFF8130013D13A /* HNodeInput.h in Headers */,
+				FF3A51691EEFF19B0013D13A /* HFBO.h in Headers */,
+				FF3A51751EEFF19B0013D13A /* HESModel.h in Headers */,
+				FF3A514B1EEFF15D0013D13A /* HUtils.h in Headers */,
+				FF3A514F1EEFF17C0013D13A /* HAlphaFilter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FF3A51371EEFEFDF0013D13A /* RealTimeProcessing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3A51401EEFEFDF0013D13A /* Build configuration list for PBXNativeTarget "RealTimeProcessing" */;
+			buildPhases = (
+				FF3A51331EEFEFDF0013D13A /* Sources */,
+				FF3A51341EEFEFDF0013D13A /* Frameworks */,
+				FF3A51351EEFEFDF0013D13A /* Headers */,
+				FF3A51361EEFEFDF0013D13A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealTimeProcessing;
+			productName = RealTimeProcessing;
+			productReference = FF3A51381EEFEFDF0013D13A /* RealTimeProcessing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3A512F1EEFEFDF0013D13A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = huangshiping;
+				TargetAttributes = {
+					FF3A51371EEFEFDF0013D13A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ET3SY67GVF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF3A51321EEFEFDF0013D13A /* Build configuration list for PBXProject "RealTimeProcessing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF3A512E1EEFEFDF0013D13A;
+			productRefGroup = FF3A51391EEFEFDF0013D13A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF3A51371EEFEFDF0013D13A /* RealTimeProcessing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF3A51361EEFEFDF0013D13A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3A51F51EF001BF0013D13A /* nv12Shader.fsh in Resources */,
+				FF3A51F41EF001BF0013D13A /* modelShader.vsh in Resources */,
+				FF3A517E1EEFF1D80013D13A /* blendShader.fsh in Resources */,
+				FF3A517D1EEFF1D80013D13A /* alphaShader.fsh in Resources */,
+				FF3A51F31EF001BF0013D13A /* modelShader.fsh in Resources */,
+				FF3A51F11EF001BF0013D13A /* cvPixelBufferShader.fsh in Resources */,
+				FF3A51F21EF001BF0013D13A /* i420Shader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF3A51331EEFEFDF0013D13A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3A51C11EEFF8130013D13A /* HNv12InputNode.m in Sources */,
+				FF3A516A1EEFF19B0013D13A /* HFBO.m in Sources */,
+				FF3A51C31EEFF8130013D13A /* HI420Input.m in Sources */,
+				FF3A51C91EEFF8130013D13A /* HCGContextInput.m in Sources */,
+				FF3A51901EEFF2090013D13A /* HColorConversion.m in Sources */,
+				FF3A516C1EEFF19B0013D13A /* HNodeOutput.m in Sources */,
+				FF3A51701EEFF19B0013D13A /* HNodeLayer.m in Sources */,
+				FF3A51781EEFF19B0013D13A /* HESVideoCamera.m in Sources */,
+				FF3A51BF1EEFF8130013D13A /* HNodeInput.m in Sources */,
+				FF3A514C1EEFF15D0013D13A /* HUtils.m in Sources */,
+				FF3A51921EEFF2090013D13A /* HLogger.m in Sources */,
+				FF3A51741EEFF19B0013D13A /* HESNode.m in Sources */,
+				FF3A516E1EEFF19B0013D13A /* HNodeImageView.m in Sources */,
+				FF3A51721EEFF19B0013D13A /* HESContext.m in Sources */,
+				FF3A51C71EEFF8130013D13A /* HCVPixelBufferInput.m in Sources */,
+				FF3A51761EEFF19B0013D13A /* HESModel.m in Sources */,
+				FF3A51661EEFF19B0013D13A /* HGLUtils.m in Sources */,
+				FF3A51C51EEFF8130013D13A /* HImageInput.m in Sources */,
+				FF3A51501EEFF17C0013D13A /* HAlphaFilter.m in Sources */,
+				FF3A51681EEFF19B0013D13A /* HESProgram.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF3A513E1EEFEFDF0013D13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF3A513F1EEFEFDF0013D13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF3A51411EEFEFDF0013D13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ET3SY67GVF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RealTimeProcessing/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsp.org.RealTimeProcessing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF3A51421EEFEFDF0013D13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ET3SY67GVF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RealTimeProcessing/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsp.org.RealTimeProcessing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF3A51321EEFEFDF0013D13A /* Build configuration list for PBXProject "RealTimeProcessing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3A513E1EEFEFDF0013D13A /* Debug */,
+				FF3A513F1EEFEFDF0013D13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3A51401EEFEFDF0013D13A /* Build configuration list for PBXNativeTarget "RealTimeProcessing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3A51411EEFEFDF0013D13A /* Debug */,
+				FF3A51421EEFEFDF0013D13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF3A512F1EEFEFDF0013D13A /* Project object */;
+}

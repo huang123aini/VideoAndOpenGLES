@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3A51191EEFEF860013D13A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51181EEFEF860013D13A /* main.m */; };
+		FF3A511C1EEFEF860013D13A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A511B1EEFEF860013D13A /* AppDelegate.m */; };
+		FF3A511F1EEFEF860013D13A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A511E1EEFEF860013D13A /* ViewController.m */; };
+		FF3A51221EEFEF860013D13A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51201EEFEF860013D13A /* Main.storyboard */; };
+		FF3A51241EEFEF860013D13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51231EEFEF860013D13A /* Assets.xcassets */; };
+		FF3A51271EEFEF860013D13A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51251EEFEF860013D13A /* LaunchScreen.storyboard */; };
+		FF3A519E1EEFF53A0013D13A /* HAllDemos.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A519D1EEFF53A0013D13A /* HAllDemos.m */; };
+		FF3A51A11EEFF58E0013D13A /* HOPenGLESDemos.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51A01EEFF58E0013D13A /* HOPenGLESDemos.m */; };
+		FF3A51A71EEFF5EF0013D13A /* HRealTimePDemos.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51A61EEFF5EF0013D13A /* HRealTimePDemos.m */; };
+		FF3A51AC1EEFF65B0013D13A /* CameraTestVc.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51A91EEFF65B0013D13A /* CameraTestVc.m */; };
+		FF3A51AD1EEFF65B0013D13A /* ImageTestVc.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51AB1EEFF65B0013D13A /* ImageTestVc.m */; };
+		FF3A51B01EEFF6970013D13A /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51AE1EEFF6970013D13A /* img2.jpg */; };
+		FF3A51B11EEFF6970013D13A /* sy_0.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51AF1EEFF6970013D13A /* sy_0.png */; };
+		FF3A51CC1EEFFB7A0013D13A /* RealTimeProcessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3A51CB1EEFFB7A0013D13A /* RealTimeProcessing.framework */; };
+		FF3A51CD1EEFFB7A0013D13A /* RealTimeProcessing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF3A51CB1EEFFB7A0013D13A /* RealTimeProcessing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF3A52001EF001FF0013D13A /* cvPixelBufferShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51F81EF001FF0013D13A /* cvPixelBufferShader.fsh */; };
+		FF3A52011EF001FF0013D13A /* i420Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51F91EF001FF0013D13A /* i420Shader.fsh */; };
+		FF3A52021EF001FF0013D13A /* modelShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51FA1EF001FF0013D13A /* modelShader.fsh */; };
+		FF3A52031EF001FF0013D13A /* modelShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51FB1EF001FF0013D13A /* modelShader.vsh */; };
+		FF3A52041EF001FF0013D13A /* nv12Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51FC1EF001FF0013D13A /* nv12Shader.fsh */; };
+		FF3A52051EF001FF0013D13A /* alphaShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51FE1EF001FF0013D13A /* alphaShader.fsh */; };
+		FF3A52061EF001FF0013D13A /* blendShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51FF1EF001FF0013D13A /* blendShader.fsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF3A51CE1EEFFB7A0013D13A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FF3A51CD1EEFFB7A0013D13A /* RealTimeProcessing.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF3A51141EEFEF860013D13A /* OPenGLES-Video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OPenGLES-Video.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3A51181EEFEF860013D13A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF3A511A1EEFEF860013D13A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF3A511B1EEFEF860013D13A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF3A511D1EEFEF860013D13A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF3A511E1EEFEF860013D13A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF3A51211EEFEF860013D13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF3A51231EEFEF860013D13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF3A51261EEFEF860013D13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF3A51281EEFEF860013D13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3A519C1EEFF53A0013D13A /* HAllDemos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAllDemos.h; sourceTree = "<group>"; };
+		FF3A519D1EEFF53A0013D13A /* HAllDemos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAllDemos.m; sourceTree = "<group>"; };
+		FF3A519F1EEFF58E0013D13A /* HOPenGLESDemos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOPenGLESDemos.h; sourceTree = "<group>"; };
+		FF3A51A01EEFF58E0013D13A /* HOPenGLESDemos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOPenGLESDemos.m; sourceTree = "<group>"; };
+		FF3A51A51EEFF5EF0013D13A /* HRealTimePDemos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRealTimePDemos.h; sourceTree = "<group>"; };
+		FF3A51A61EEFF5EF0013D13A /* HRealTimePDemos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRealTimePDemos.m; sourceTree = "<group>"; };
+		FF3A51A81EEFF65B0013D13A /* CameraTestVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraTestVc.h; sourceTree = "<group>"; };
+		FF3A51A91EEFF65B0013D13A /* CameraTestVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraTestVc.m; sourceTree = "<group>"; };
+		FF3A51AA1EEFF65B0013D13A /* ImageTestVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTestVc.h; sourceTree = "<group>"; };
+		FF3A51AB1EEFF65B0013D13A /* ImageTestVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTestVc.m; sourceTree = "<group>"; };
+		FF3A51AE1EEFF6970013D13A /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		FF3A51AF1EEFF6970013D13A /* sy_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sy_0.png; sourceTree = "<group>"; };
+		FF3A51CB1EEFFB7A0013D13A /* RealTimeProcessing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealTimeProcessing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3A51F81EF001FF0013D13A /* cvPixelBufferShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = cvPixelBufferShader.fsh; sourceTree = "<group>"; };
+		FF3A51F91EF001FF0013D13A /* i420Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = i420Shader.fsh; sourceTree = "<group>"; };
+		FF3A51FA1EF001FF0013D13A /* modelShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = modelShader.fsh; sourceTree = "<group>"; };
+		FF3A51FB1EF001FF0013D13A /* modelShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = modelShader.vsh; sourceTree = "<group>"; };
+		FF3A51FC1EF001FF0013D13A /* nv12Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = nv12Shader.fsh; sourceTree = "<group>"; };
+		FF3A51FE1EF001FF0013D13A /* alphaShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = alphaShader.fsh; sourceTree = "<group>"; };
+		FF3A51FF1EF001FF0013D13A /* blendShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = blendShader.fsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF3A51111EEFEF860013D13A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3A51CC1EEFFB7A0013D13A /* RealTimeProcessing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF3A510B1EEFEF850013D13A = {
+			isa = PBXGroup;
+			children = (
+				FF3A51CB1EEFFB7A0013D13A /* RealTimeProcessing.framework */,
+				FF3A51161EEFEF860013D13A /* OPenGLES-Video */,
+				FF3A51151EEFEF860013D13A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3A51151EEFEF860013D13A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51141EEFEF860013D13A /* OPenGLES-Video.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3A51161EEFEF860013D13A /* OPenGLES-Video */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51961EEFF4110013D13A /* RealTimeProcessing */,
+				FF3A51931EEFF2AD0013D13A /* PUREOPENGLES */,
+				FF3A511A1EEFEF860013D13A /* AppDelegate.h */,
+				FF3A511B1EEFEF860013D13A /* AppDelegate.m */,
+				FF3A519C1EEFF53A0013D13A /* HAllDemos.h */,
+				FF3A519D1EEFF53A0013D13A /* HAllDemos.m */,
+				FF3A519F1EEFF58E0013D13A /* HOPenGLESDemos.h */,
+				FF3A51A01EEFF58E0013D13A /* HOPenGLESDemos.m */,
+				FF3A51A51EEFF5EF0013D13A /* HRealTimePDemos.h */,
+				FF3A51A61EEFF5EF0013D13A /* HRealTimePDemos.m */,
+				FF3A511D1EEFEF860013D13A /* ViewController.h */,
+				FF3A511E1EEFEF860013D13A /* ViewController.m */,
+				FF3A51201EEFEF860013D13A /* Main.storyboard */,
+				FF3A51231EEFEF860013D13A /* Assets.xcassets */,
+				FF3A51251EEFEF860013D13A /* LaunchScreen.storyboard */,
+				FF3A51281EEFEF860013D13A /* Info.plist */,
+				FF3A51171EEFEF860013D13A /* Supporting Files */,
+			);
+			path = "OPenGLES-Video";
+			sourceTree = "<group>";
+		};
+		FF3A51171EEFEF860013D13A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51181EEFEF860013D13A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF3A51931EEFF2AD0013D13A /* PUREOPENGLES */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51941EEFF38F0013D13A /* resources */,
+				FF3A51951EEFF38F0013D13A /* Vc */,
+			);
+			path = PUREOPENGLES;
+			sourceTree = "<group>";
+		};
+		FF3A51941EEFF38F0013D13A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		FF3A51951EEFF38F0013D13A /* Vc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vc;
+			sourceTree = "<group>";
+		};
+		FF3A51961EEFF4110013D13A /* RealTimeProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51971EEFF4110013D13A /* resources */,
+				FF3A51981EEFF4110013D13A /* Vc */,
+			);
+			path = RealTimeProcessing;
+			sourceTree = "<group>";
+		};
+		FF3A51971EEFF4110013D13A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51F61EF001FF0013D13A /* shaders */,
+				FF3A51AE1EEFF6970013D13A /* img2.jpg */,
+				FF3A51AF1EEFF6970013D13A /* sy_0.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		FF3A51981EEFF4110013D13A /* Vc */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51A81EEFF65B0013D13A /* CameraTestVc.h */,
+				FF3A51A91EEFF65B0013D13A /* CameraTestVc.m */,
+				FF3A51AA1EEFF65B0013D13A /* ImageTestVc.h */,
+				FF3A51AB1EEFF65B0013D13A /* ImageTestVc.m */,
+			);
+			path = Vc;
+			sourceTree = "<group>";
+		};
+		FF3A51F61EF001FF0013D13A /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51F71EF001FF0013D13A /* bases */,
+				FF3A51FD1EF001FF0013D13A /* effects */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
+		FF3A51F71EF001FF0013D13A /* bases */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51F81EF001FF0013D13A /* cvPixelBufferShader.fsh */,
+				FF3A51F91EF001FF0013D13A /* i420Shader.fsh */,
+				FF3A51FA1EF001FF0013D13A /* modelShader.fsh */,
+				FF3A51FB1EF001FF0013D13A /* modelShader.vsh */,
+				FF3A51FC1EF001FF0013D13A /* nv12Shader.fsh */,
+			);
+			path = bases;
+			sourceTree = "<group>";
+		};
+		FF3A51FD1EF001FF0013D13A /* effects */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A51FE1EF001FF0013D13A /* alphaShader.fsh */,
+				FF3A51FF1EF001FF0013D13A /* blendShader.fsh */,
+			);
+			path = effects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF3A51131EEFEF860013D13A /* OPenGLES-Video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3A512B1EEFEF860013D13A /* Build configuration list for PBXNativeTarget "OPenGLES-Video" */;
+			buildPhases = (
+				FF3A51101EEFEF860013D13A /* Sources */,
+				FF3A51111EEFEF860013D13A /* Frameworks */,
+				FF3A51121EEFEF860013D13A /* Resources */,
+				FF3A51CE1EEFFB7A0013D13A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OPenGLES-Video";
+			productName = "OPenGLES-Video";
+			productReference = FF3A51141EEFEF860013D13A /* OPenGLES-Video.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3A510C1EEFEF850013D13A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = huangshiping;
+				TargetAttributes = {
+					FF3A51131EEFEF860013D13A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ET3SY67GVF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF3A510F1EEFEF850013D13A /* Build configuration list for PBXProject "OPenGLES-Video" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF3A510B1EEFEF850013D13A;
+			productRefGroup = FF3A51151EEFEF860013D13A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF3A51131EEFEF860013D13A /* OPenGLES-Video */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF3A51121EEFEF860013D13A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3A52011EF001FF0013D13A /* i420Shader.fsh in Resources */,
+				FF3A51271EEFEF860013D13A /* LaunchScreen.storyboard in Resources */,
+				FF3A52061EF001FF0013D13A /* blendShader.fsh in Resources */,
+				FF3A51B11EEFF6970013D13A /* sy_0.png in Resources */,
+				FF3A52041EF001FF0013D13A /* nv12Shader.fsh in Resources */,
+				FF3A52001EF001FF0013D13A /* cvPixelBufferShader.fsh in Resources */,
+				FF3A51241EEFEF860013D13A /* Assets.xcassets in Resources */,
+				FF3A52051EF001FF0013D13A /* alphaShader.fsh in Resources */,
+				FF3A51B01EEFF6970013D13A /* img2.jpg in Resources */,
+				FF3A52031EF001FF0013D13A /* modelShader.vsh in Resources */,
+				FF3A52021EF001FF0013D13A /* modelShader.fsh in Resources */,
+				FF3A51221EEFEF860013D13A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF3A51101EEFEF860013D13A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3A511F1EEFEF860013D13A /* ViewController.m in Sources */,
+				FF3A511C1EEFEF860013D13A /* AppDelegate.m in Sources */,
+				FF3A51191EEFEF860013D13A /* main.m in Sources */,
+				FF3A51AC1EEFF65B0013D13A /* CameraTestVc.m in Sources */,
+				FF3A51AD1EEFF65B0013D13A /* ImageTestVc.m in Sources */,
+				FF3A51A71EEFF5EF0013D13A /* HRealTimePDemos.m in Sources */,
+				FF3A519E1EEFF53A0013D13A /* HAllDemos.m in Sources */,
+				FF3A51A11EEFF58E0013D13A /* HOPenGLESDemos.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF3A51201EEFEF860013D13A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3A51211EEFEF860013D13A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF3A51251EEFEF860013D13A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3A51261EEFEF860013D13A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF3A51291EEFEF860013D13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF3A512A1EEFEF860013D13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF3A512C1EEFEF860013D13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ET3SY67GVF;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../RealTimeProcessing/**";
+				INFOPLIST_FILE = "OPenGLES-Video/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsp.org.HCubeCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF3A512D1EEFEF860013D13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ET3SY67GVF;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../RealTimeProcessing/**";
+				INFOPLIST_FILE = "OPenGLES-Video/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsp.org.HCubeCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF3A510F1EEFEF850013D13A /* Build configuration list for PBXProject "OPenGLES-Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3A51291EEFEF860013D13A /* Debug */,
+				FF3A512A1EEFEF860013D13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3A512B1EEFEF860013D13A /* Build configuration list for PBXNativeTarget "OPenGLES-Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3A512C1EEFEF860013D13A /* Debug */,
+				FF3A512D1EEFEF860013D13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF3A510C1EEFEF850013D13A /* Project object */;
+}
