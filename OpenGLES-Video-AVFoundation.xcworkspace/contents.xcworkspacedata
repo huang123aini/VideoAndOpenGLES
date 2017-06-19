@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:MovieCodec_AVFoundation/MovieCodec_AVFoundation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PureOpenGLES/PureOpenGLES.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:RealTimeProcessing/RealTimeProcessing.xcodeproj">
    </FileRef>
    <FileRef

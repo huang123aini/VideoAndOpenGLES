@@ -29,6 +29,11 @@
 		FF3A52041EF001FF0013D13A /* nv12Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51FC1EF001FF0013D13A /* nv12Shader.fsh */; };
 		FF3A52051EF001FF0013D13A /* alphaShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51FE1EF001FF0013D13A /* alphaShader.fsh */; };
 		FF3A52061EF001FF0013D13A /* blendShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF3A51FF1EF001FF0013D13A /* blendShader.fsh */; };
+		FF5E1C601EF7A5830037223A /* HAVFoundationDemos.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1C5F1EF7A5830037223A /* HAVFoundationDemos.m */; };
+		FF5E1C6D1EF7AB670037223A /* before.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FF5E1C6B1EF7AB670037223A /* before.mp4 */; };
+		FF5E1C701EF7AB880037223A /* SlowDownVc.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1C6F1EF7AB880037223A /* SlowDownVc.m */; };
+		FF5E1C751EF7AD0A0037223A /* MovieCodec_AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5E1C711EF7AC580037223A /* MovieCodec_AVFoundation.framework */; };
+		FF5E1C761EF7AD0A0037223A /* MovieCodec_AVFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF5E1C711EF7AC580037223A /* MovieCodec_AVFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				FF5E1C761EF7AD0A0037223A /* MovieCodec_AVFoundation.framework in Embed Frameworks */,
 				FF3A51CD1EEFFB7A0013D13A /* RealTimeProcessing.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -76,6 +82,13 @@
 		FF3A51FC1EF001FF0013D13A /* nv12Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = nv12Shader.fsh; sourceTree = "<group>"; };
 		FF3A51FE1EF001FF0013D13A /* alphaShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = alphaShader.fsh; sourceTree = "<group>"; };
 		FF3A51FF1EF001FF0013D13A /* blendShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = blendShader.fsh; sourceTree = "<group>"; };
+		FF5E1C5E1EF7A5830037223A /* HAVFoundationDemos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAVFoundationDemos.h; sourceTree = "<group>"; };
+		FF5E1C5F1EF7A5830037223A /* HAVFoundationDemos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAVFoundationDemos.m; sourceTree = "<group>"; };
+		FF5E1C621EF7A5ED0037223A /* MovieCodec_AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MovieCodec_AVFoundation.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/OpenGLES-Video-AVFoundation-eubdrxnqsryffxbngeezdpcldofg/Build/Products/Debug-iphonesimulator/MovieCodec_AVFoundation.framework"; sourceTree = "<group>"; };
+		FF5E1C6B1EF7AB670037223A /* before.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = before.mp4; sourceTree = "<group>"; };
+		FF5E1C6E1EF7AB880037223A /* SlowDownVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlowDownVc.h; sourceTree = "<group>"; };
+		FF5E1C6F1EF7AB880037223A /* SlowDownVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlowDownVc.m; sourceTree = "<group>"; };
+		FF5E1C711EF7AC580037223A /* MovieCodec_AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MovieCodec_AVFoundation.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/OpenGLES-Video-AVFoundation-eubdrxnqsryffxbngeezdpcldofg/Build/Products/Debug-iphoneos/MovieCodec_AVFoundation.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5E1C751EF7AD0A0037223A /* MovieCodec_AVFoundation.framework in Frameworks */,
 				FF3A51CC1EEFFB7A0013D13A /* RealTimeProcessing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +110,7 @@
 				FF3A51CB1EEFFB7A0013D13A /* RealTimeProcessing.framework */,
 				FF3A51161EEFEF860013D13A /* OPenGLES-Video */,
 				FF3A51151EEFEF860013D13A /* Products */,
+				FF5E1C611EF7A5ED0037223A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +125,7 @@
 		FF3A51161EEFEF860013D13A /* OPenGLES-Video */ = {
 			isa = PBXGroup;
 			children = (
+				FF5E1C5D1EF7A54C0037223A /* AVFoundation */,
 				FF3A51961EEFF4110013D13A /* RealTimeProcessing */,
 				FF3A51931EEFF2AD0013D13A /* PUREOPENGLES */,
 				FF3A511A1EEFEF860013D13A /* AppDelegate.h */,
@@ -120,6 +136,8 @@
 				FF3A51A01EEFF58E0013D13A /* HOPenGLESDemos.m */,
 				FF3A51A51EEFF5EF0013D13A /* HRealTimePDemos.h */,
 				FF3A51A61EEFF5EF0013D13A /* HRealTimePDemos.m */,
+				FF5E1C5E1EF7A5830037223A /* HAVFoundationDemos.h */,
+				FF5E1C5F1EF7A5830037223A /* HAVFoundationDemos.m */,
 				FF3A511D1EEFEF860013D13A /* ViewController.h */,
 				FF3A511E1EEFEF860013D13A /* ViewController.m */,
 				FF3A51201EEFEF860013D13A /* Main.storyboard */,
@@ -222,6 +240,41 @@
 			path = effects;
 			sourceTree = "<group>";
 		};
+		FF5E1C5D1EF7A54C0037223A /* AVFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				FF5E1C6C1EF7AB670037223A /* Vc */,
+				FF5E1C6A1EF7AB670037223A /* resources */,
+			);
+			path = AVFoundation;
+			sourceTree = "<group>";
+		};
+		FF5E1C611EF7A5ED0037223A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF5E1C711EF7AC580037223A /* MovieCodec_AVFoundation.framework */,
+				FF5E1C621EF7A5ED0037223A /* MovieCodec_AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF5E1C6A1EF7AB670037223A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF5E1C6B1EF7AB670037223A /* before.mp4 */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		FF5E1C6C1EF7AB670037223A /* Vc */ = {
+			isa = PBXGroup;
+			children = (
+				FF5E1C6E1EF7AB880037223A /* SlowDownVc.h */,
+				FF5E1C6F1EF7AB880037223A /* SlowDownVc.m */,
+			);
+			path = Vc;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -293,6 +346,7 @@
 				FF3A51B01EEFF6970013D13A /* img2.jpg in Resources */,
 				FF3A52031EF001FF0013D13A /* modelShader.vsh in Resources */,
 				FF3A52021EF001FF0013D13A /* modelShader.fsh in Resources */,
+				FF5E1C6D1EF7AB670037223A /* before.mp4 in Resources */,
 				FF3A51221EEFEF860013D13A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +366,8 @@
 				FF3A51A71EEFF5EF0013D13A /* HRealTimePDemos.m in Sources */,
 				FF3A519E1EEFF53A0013D13A /* HAllDemos.m in Sources */,
 				FF3A51A11EEFF58E0013D13A /* HOPenGLESDemos.m in Sources */,
+				FF5E1C601EF7A5830037223A /* HAVFoundationDemos.m in Sources */,
+				FF5E1C701EF7AB880037223A /* SlowDownVc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +490,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ET3SY67GVF;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../RealTimeProcessing/**";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../RealTimeProcessing/**",
+					"$(SRCROOT)/../MovieCodec_AVFoundation",
+				);
 				INFOPLIST_FILE = "OPenGLES-Video/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hsp.org.HCubeCamera;
@@ -447,7 +506,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ET3SY67GVF;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../RealTimeProcessing/**";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../RealTimeProcessing/**",
+					"$(SRCROOT)/../MovieCodec_AVFoundation",
+				);
 				INFOPLIST_FILE = "OPenGLES-Video/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hsp.org.HCubeCamera;

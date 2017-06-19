@@ -14,6 +14,8 @@
 #import "HAllDemos.h"
 #import "HOPenGLESDemos.h"
 #import "HRealTimePDemos.h"
+#import "HAVFoundationDemos.h"
+
 
 
 @interface HAllDemos ()
@@ -32,9 +34,11 @@
     
     NSString* demo1 = @"OPenGLES例子";
     NSString* demo2 = @"实时视频处理例子";
+    NSString* demo3 = @"AVFoundation例子";
     
     [demoArrays addObject:demo1];
     [demoArrays addObject:demo2];
+    [demoArrays addObject:demo3];
 }
 
 #pragma mark -------TableViewController-------
@@ -85,7 +89,7 @@
         }
         case 2:
         {
-            
+            viewC = [HAVFoundationDemos new];
             break;
         }
             

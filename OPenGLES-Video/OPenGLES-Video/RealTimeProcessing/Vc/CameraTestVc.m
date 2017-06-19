@@ -11,7 +11,6 @@
 
 #import <HRealTimeProcessing.h>
 
-
 #import "HESVideoCamera.h"
 #import "HESNode.h"
 #import "HNodeImageView.h"
