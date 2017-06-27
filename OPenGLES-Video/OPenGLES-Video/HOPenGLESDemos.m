@@ -7,6 +7,7 @@
 //
 
 #import "HOPenGLESDemos.h"
+#import "FBOTestVc.h"
 
 
 @interface HOPenGLESDemos ()
@@ -22,10 +23,12 @@
     [super viewDidLoad];
     demoArrays = [NSMutableArray new];
     
+    NSString* demo1 = @"FBO使用";
+    
 //    NSString* demo1 = @"实时视频OPENGLES显示";
 //    NSString* demo2 = @"图片添加Alpha滤镜";
 //    
-//    [demoArrays addObject:demo1];
+    [demoArrays addObject:demo1];
 //    [demoArrays addObject:demo2];
 }
 
@@ -67,6 +70,7 @@
     {
         case 0:
         {
+            viewC = [FBOTestVc new];
             
             break;
         }

@@ -7,7 +7,13 @@
 //
 
 #import "HAVFoundationDemos.h"
+
 #import "SlowDownVc.h"
+#import "MergeVideoVc.h"
+#import "ReverseClipVc.h"
+#import "RecordVc.h"
+#import "DecoderVc.h"
+
 
 @interface HAVFoundationDemos ()
 {
@@ -24,8 +30,16 @@
     demoArrays = [NSMutableArray new];
     
     NSString* demo1 = @"视频变速";
+    NSString* demo2 = @"合并视频并播放";
+    NSString* demo3 = @"视屏逆序播放";
+    NSString* demo4 = @"视频录制";
+    NSString* demo5 = @"视频解码显示";
     
     [demoArrays addObject:demo1];
+    [demoArrays addObject:demo2];
+    [demoArrays addObject:demo3];
+    [demoArrays addObject:demo4];
+    [demoArrays addObject:demo5];
     
 }
 
@@ -68,6 +82,26 @@
         case 0:
         {
             viewC = [SlowDownVc new];
+            break;
+        }
+        case 1:
+        {
+            viewC = [MergeVideoVc new];
+            break;
+        }
+        case 2:
+        {
+            viewC = [ReverseClipVc new];
+            break;
+        }
+        case 3:
+        {
+            viewC = [RecordVc new];
+            break;
+        }
+        case 4:
+        {
+            viewC = [DecoderVc new];
             break;
         }
       

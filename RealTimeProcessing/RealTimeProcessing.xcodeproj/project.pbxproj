@@ -16,8 +16,6 @@
 		FF3A51661EEFF19B0013D13A /* HGLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51521EEFF19B0013D13A /* HGLUtils.m */; };
 		FF3A51671EEFF19B0013D13A /* HESProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51531EEFF19B0013D13A /* HESProgram.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF3A51681EEFF19B0013D13A /* HESProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51541EEFF19B0013D13A /* HESProgram.m */; };
-		FF3A51691EEFF19B0013D13A /* HFBO.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51551EEFF19B0013D13A /* HFBO.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF3A516A1EEFF19B0013D13A /* HFBO.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51561EEFF19B0013D13A /* HFBO.m */; };
 		FF3A516B1EEFF19B0013D13A /* HNodeOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51571EEFF19B0013D13A /* HNodeOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF3A516C1EEFF19B0013D13A /* HNodeOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A51581EEFF19B0013D13A /* HNodeOutput.m */; };
 		FF3A516D1EEFF19B0013D13A /* HNodeImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3A51591EEFF19B0013D13A /* HNodeImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -70,8 +68,6 @@
 		FF3A51521EEFF19B0013D13A /* HGLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGLUtils.m; sourceTree = "<group>"; };
 		FF3A51531EEFF19B0013D13A /* HESProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HESProgram.h; sourceTree = "<group>"; };
 		FF3A51541EEFF19B0013D13A /* HESProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HESProgram.m; sourceTree = "<group>"; };
-		FF3A51551EEFF19B0013D13A /* HFBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFBO.h; sourceTree = "<group>"; };
-		FF3A51561EEFF19B0013D13A /* HFBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFBO.m; sourceTree = "<group>"; };
 		FF3A51571EEFF19B0013D13A /* HNodeOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNodeOutput.h; sourceTree = "<group>"; };
 		FF3A51581EEFF19B0013D13A /* HNodeOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNodeOutput.m; sourceTree = "<group>"; };
 		FF3A51591EEFF19B0013D13A /* HNodeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNodeImageView.h; sourceTree = "<group>"; };
@@ -176,8 +172,6 @@
 				FF3A51521EEFF19B0013D13A /* HGLUtils.m */,
 				FF3A51531EEFF19B0013D13A /* HESProgram.h */,
 				FF3A51541EEFF19B0013D13A /* HESProgram.m */,
-				FF3A51551EEFF19B0013D13A /* HFBO.h */,
-				FF3A51561EEFF19B0013D13A /* HFBO.m */,
 				FF3A51571EEFF19B0013D13A /* HNodeOutput.h */,
 				FF3A51581EEFF19B0013D13A /* HNodeOutput.m */,
 				FF3A51591EEFF19B0013D13A /* HNodeImageView.h */,
@@ -293,7 +287,6 @@
 				FF3A51C41EEFF8130013D13A /* HImageInput.h in Headers */,
 				FF3A51C21EEFF8130013D13A /* HI420Input.h in Headers */,
 				FF3A51BE1EEFF8130013D13A /* HNodeInput.h in Headers */,
-				FF3A51691EEFF19B0013D13A /* HFBO.h in Headers */,
 				FF3A51751EEFF19B0013D13A /* HESModel.h in Headers */,
 				FF3A514B1EEFF15D0013D13A /* HUtils.h in Headers */,
 				FF3A514F1EEFF17C0013D13A /* HAlphaFilter.h in Headers */,
@@ -377,7 +370,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF3A51C11EEFF8130013D13A /* HNv12InputNode.m in Sources */,
-				FF3A516A1EEFF19B0013D13A /* HFBO.m in Sources */,
 				FF3A51C31EEFF8130013D13A /* HI420Input.m in Sources */,
 				FF3A51C91EEFF8130013D13A /* HCGContextInput.m in Sources */,
 				FF3A51901EEFF2090013D13A /* HColorConversion.m in Sources */,

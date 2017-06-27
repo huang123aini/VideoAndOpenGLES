@@ -161,7 +161,7 @@
     return vbo;
 }
 
--(GLuint)createTextureWithImage:(UIImage*)image
++(GLuint)createTextureWithImage:(UIImage*)image
 {
     CGImageRef spriteImage = image.CGImage;
     GLuint width = (GLuint)CGImageGetWidth(spriteImage);

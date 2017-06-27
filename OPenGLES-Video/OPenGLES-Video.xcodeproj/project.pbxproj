@@ -34,6 +34,35 @@
 		FF5E1C701EF7AB880037223A /* SlowDownVc.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1C6F1EF7AB880037223A /* SlowDownVc.m */; };
 		FF5E1C751EF7AD0A0037223A /* MovieCodec_AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5E1C711EF7AC580037223A /* MovieCodec_AVFoundation.framework */; };
 		FF5E1C761EF7AD0A0037223A /* MovieCodec_AVFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF5E1C711EF7AC580037223A /* MovieCodec_AVFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF5E1C891EF7E4F00037223A /* FBOTestVc.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1C881EF7E4F00037223A /* FBOTestVc.m */; };
+		FF5E1C8B1EF7E5BD0037223A /* PureOpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5E1C8A1EF7E5BD0037223A /* PureOpenGLES.framework */; };
+		FF5E1C8C1EF7E5BD0037223A /* PureOpenGLES.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF5E1C8A1EF7E5BD0037223A /* PureOpenGLES.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF5E1C8F1EF7E8340037223A /* ImageVBO.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1C8E1EF7E8340037223A /* ImageVBO.m */; };
+		FF5E1C921EF7EB200037223A /* 2dShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FF5E1C901EF7EB200037223A /* 2dShader.fsh */; };
+		FF5E1C931EF7EB200037223A /* 2dShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FF5E1C911EF7EB200037223A /* 2dShader.vsh */; };
+		FF5E1C951EF7F6BC0037223A /* timg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF5E1C941EF7F6BC0037223A /* timg.jpg */; };
+		FF5E1C9E1EF917C60037223A /* MergeVideoVc.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1C9D1EF917C60037223A /* MergeVideoVc.m */; };
+		FF5E1CA11EF9185F0037223A /* b.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FF5E1CA01EF9185F0037223A /* b.mp4 */; };
+		FF5E1CA41EF925BE0037223A /* ReverseClipVc.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CA31EF925BE0037223A /* ReverseClipVc.m */; };
+		FF5E1CBC1EF934B10037223A /* long.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FF5E1CBB1EF934B10037223A /* long.mp4 */; };
+		FF5E1CBE1EF935120037223A /* a.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FF5E1CBD1EF935120037223A /* a.mp4 */; };
+		FF5E1CC91EFA660D0037223A /* RecordVc.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CC81EFA660D0037223A /* RecordVc.m */; };
+		FF5E1CEC1EFA7C2D0037223A /* DecoderVc.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CEB1EFA7C2D0037223A /* DecoderVc.m */; };
+		FF5E1CF21EFA80FC0037223A /* timg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF5E1CF11EFA80FC0037223A /* timg.jpg */; };
+		FFAB2C8D1EFE57DA006ABFBB /* fboShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FFAB2C8B1EFE57DA006ABFBB /* fboShader.fsh */; };
+		FFAB2C8E1EFE57DA006ABFBB /* fboShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FFAB2C8C1EFE57DA006ABFBB /* fboShader.vsh */; };
+		FFAB2C951EFE6E6A006ABFBB /* HeartShaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAB2C941EFE6E6A006ABFBB /* HeartShaderTest.m */; };
+		FFAB2C991EFE7069006ABFBB /* circleShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FFAB2C971EFE7069006ABFBB /* circleShader.fsh */; };
+		FFAB2C9A1EFE7069006ABFBB /* circleShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FFAB2C981EFE7069006ABFBB /* circleShader.vsh */; };
+		FFAB2C9D1EFE7264006ABFBB /* heartShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FFAB2C9B1EFE7264006ABFBB /* heartShader.fsh */; };
+		FFAB2C9E1EFE7264006ABFBB /* heartShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FFAB2C9C1EFE7264006ABFBB /* heartShader.vsh */; };
+		FFAB2CA11EFE730A006ABFBB /* CircleShaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAB2CA01EFE730A006ABFBB /* CircleShaderTest.m */; };
+		FFAB2CA31EFE74D8006ABFBB /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFAB2CA21EFE74D8006ABFBB /* img1.jpg */; };
+		FFAB2CA71F023518006ABFBB /* spliteShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FFAB2CA51F023518006ABFBB /* spliteShader.fsh */; };
+		FFAB2CA81F023518006ABFBB /* spliteShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FFAB2CA61F023518006ABFBB /* spliteShader.vsh */; };
+		FFAB2CAB1F024C68006ABFBB /* video1Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FFAB2CA91F024C68006ABFBB /* video1Shader.fsh */; };
+		FFAB2CAC1F024C68006ABFBB /* video1Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FFAB2CAA1F024C68006ABFBB /* video1Shader.vsh */; };
+		FFAB2CAF1F024D3B006ABFBB /* video1ShaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAB2CAE1F024D3B006ABFBB /* video1ShaderTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +74,7 @@
 			files = (
 				FF5E1C761EF7AD0A0037223A /* MovieCodec_AVFoundation.framework in Embed Frameworks */,
 				FF3A51CD1EEFFB7A0013D13A /* RealTimeProcessing.framework in Embed Frameworks */,
+				FF5E1C8C1EF7E5BD0037223A /* PureOpenGLES.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,6 +119,43 @@
 		FF5E1C6E1EF7AB880037223A /* SlowDownVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlowDownVc.h; sourceTree = "<group>"; };
 		FF5E1C6F1EF7AB880037223A /* SlowDownVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlowDownVc.m; sourceTree = "<group>"; };
 		FF5E1C711EF7AC580037223A /* MovieCodec_AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MovieCodec_AVFoundation.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/OpenGLES-Video-AVFoundation-eubdrxnqsryffxbngeezdpcldofg/Build/Products/Debug-iphoneos/MovieCodec_AVFoundation.framework"; sourceTree = "<group>"; };
+		FF5E1C871EF7E4F00037223A /* FBOTestVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOTestVc.h; sourceTree = "<group>"; };
+		FF5E1C881EF7E4F00037223A /* FBOTestVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBOTestVc.m; sourceTree = "<group>"; };
+		FF5E1C8A1EF7E5BD0037223A /* PureOpenGLES.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PureOpenGLES.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5E1C8D1EF7E8340037223A /* ImageVBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageVBO.h; sourceTree = "<group>"; };
+		FF5E1C8E1EF7E8340037223A /* ImageVBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageVBO.m; sourceTree = "<group>"; };
+		FF5E1C901EF7EB200037223A /* 2dShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = 2dShader.fsh; sourceTree = "<group>"; };
+		FF5E1C911EF7EB200037223A /* 2dShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = 2dShader.vsh; sourceTree = "<group>"; };
+		FF5E1C941EF7F6BC0037223A /* timg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpg; sourceTree = "<group>"; };
+		FF5E1C9C1EF917C60037223A /* MergeVideoVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeVideoVc.h; sourceTree = "<group>"; };
+		FF5E1C9D1EF917C60037223A /* MergeVideoVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeVideoVc.m; sourceTree = "<group>"; };
+		FF5E1CA01EF9185F0037223A /* b.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = b.mp4; sourceTree = "<group>"; };
+		FF5E1CA21EF925BE0037223A /* ReverseClipVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseClipVc.h; sourceTree = "<group>"; };
+		FF5E1CA31EF925BE0037223A /* ReverseClipVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseClipVc.m; sourceTree = "<group>"; };
+		FF5E1CBB1EF934B10037223A /* long.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = long.mp4; sourceTree = "<group>"; };
+		FF5E1CBD1EF935120037223A /* a.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = a.mp4; sourceTree = "<group>"; };
+		FF5E1CC71EFA660D0037223A /* RecordVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordVc.h; sourceTree = "<group>"; };
+		FF5E1CC81EFA660D0037223A /* RecordVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordVc.m; sourceTree = "<group>"; };
+		FF5E1CEA1EFA7C2D0037223A /* DecoderVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoderVc.h; sourceTree = "<group>"; };
+		FF5E1CEB1EFA7C2D0037223A /* DecoderVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoderVc.m; sourceTree = "<group>"; };
+		FF5E1CF11EFA80FC0037223A /* timg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpg; sourceTree = "<group>"; };
+		FFAB2C8B1EFE57DA006ABFBB /* fboShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = fboShader.fsh; sourceTree = "<group>"; };
+		FFAB2C8C1EFE57DA006ABFBB /* fboShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = fboShader.vsh; sourceTree = "<group>"; };
+		FFAB2C931EFE6E6A006ABFBB /* HeartShaderTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartShaderTest.h; sourceTree = "<group>"; };
+		FFAB2C941EFE6E6A006ABFBB /* HeartShaderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartShaderTest.m; sourceTree = "<group>"; };
+		FFAB2C971EFE7069006ABFBB /* circleShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = circleShader.fsh; sourceTree = "<group>"; };
+		FFAB2C981EFE7069006ABFBB /* circleShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = circleShader.vsh; sourceTree = "<group>"; };
+		FFAB2C9B1EFE7264006ABFBB /* heartShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = heartShader.fsh; sourceTree = "<group>"; };
+		FFAB2C9C1EFE7264006ABFBB /* heartShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = heartShader.vsh; sourceTree = "<group>"; };
+		FFAB2C9F1EFE730A006ABFBB /* CircleShaderTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleShaderTest.h; sourceTree = "<group>"; };
+		FFAB2CA01EFE730A006ABFBB /* CircleShaderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleShaderTest.m; sourceTree = "<group>"; };
+		FFAB2CA21EFE74D8006ABFBB /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		FFAB2CA51F023518006ABFBB /* spliteShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = spliteShader.fsh; sourceTree = "<group>"; };
+		FFAB2CA61F023518006ABFBB /* spliteShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = spliteShader.vsh; sourceTree = "<group>"; };
+		FFAB2CA91F024C68006ABFBB /* video1Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = video1Shader.fsh; sourceTree = "<group>"; };
+		FFAB2CAA1F024C68006ABFBB /* video1Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = video1Shader.vsh; sourceTree = "<group>"; };
+		FFAB2CAD1F024D3B006ABFBB /* video1ShaderTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = video1ShaderTest.h; sourceTree = "<group>"; };
+		FFAB2CAE1F024D3B006ABFBB /* video1ShaderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = video1ShaderTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +165,7 @@
 			files = (
 				FF5E1C751EF7AD0A0037223A /* MovieCodec_AVFoundation.framework in Frameworks */,
 				FF3A51CC1EEFFB7A0013D13A /* RealTimeProcessing.framework in Frameworks */,
+				FF5E1C8B1EF7E5BD0037223A /* PureOpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +175,7 @@
 		FF3A510B1EEFEF850013D13A = {
 			isa = PBXGroup;
 			children = (
+				FF5E1C8A1EF7E5BD0037223A /* PureOpenGLES.framework */,
 				FF3A51CB1EEFFB7A0013D13A /* RealTimeProcessing.framework */,
 				FF3A51161EEFEF860013D13A /* OPenGLES-Video */,
 				FF3A51151EEFEF860013D13A /* Products */,
@@ -169,6 +238,13 @@
 		FF3A51941EEFF38F0013D13A /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				FFAB2C961EFE7011006ABFBB /* effects */,
+				FF5E1C911EF7EB200037223A /* 2dShader.vsh */,
+				FF5E1C901EF7EB200037223A /* 2dShader.fsh */,
+				FFAB2C8B1EFE57DA006ABFBB /* fboShader.fsh */,
+				FFAB2C8C1EFE57DA006ABFBB /* fboShader.vsh */,
+				FF5E1C941EF7F6BC0037223A /* timg.jpg */,
+				FFAB2CA21EFE74D8006ABFBB /* img1.jpg */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -176,6 +252,16 @@
 		FF3A51951EEFF38F0013D13A /* Vc */ = {
 			isa = PBXGroup;
 			children = (
+				FF5E1C8D1EF7E8340037223A /* ImageVBO.h */,
+				FF5E1C8E1EF7E8340037223A /* ImageVBO.m */,
+				FFAB2C931EFE6E6A006ABFBB /* HeartShaderTest.h */,
+				FFAB2C941EFE6E6A006ABFBB /* HeartShaderTest.m */,
+				FFAB2C9F1EFE730A006ABFBB /* CircleShaderTest.h */,
+				FFAB2CA01EFE730A006ABFBB /* CircleShaderTest.m */,
+				FFAB2CAD1F024D3B006ABFBB /* video1ShaderTest.h */,
+				FFAB2CAE1F024D3B006ABFBB /* video1ShaderTest.m */,
+				FF5E1C871EF7E4F00037223A /* FBOTestVc.h */,
+				FF5E1C881EF7E4F00037223A /* FBOTestVc.m */,
 			);
 			path = Vc;
 			sourceTree = "<group>";
@@ -261,7 +347,11 @@
 		FF5E1C6A1EF7AB670037223A /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				FF5E1CF11EFA80FC0037223A /* timg.jpg */,
 				FF5E1C6B1EF7AB670037223A /* before.mp4 */,
+				FF5E1CA01EF9185F0037223A /* b.mp4 */,
+				FF5E1CBB1EF934B10037223A /* long.mp4 */,
+				FF5E1CBD1EF935120037223A /* a.mp4 */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -271,8 +361,31 @@
 			children = (
 				FF5E1C6E1EF7AB880037223A /* SlowDownVc.h */,
 				FF5E1C6F1EF7AB880037223A /* SlowDownVc.m */,
+				FF5E1C9C1EF917C60037223A /* MergeVideoVc.h */,
+				FF5E1C9D1EF917C60037223A /* MergeVideoVc.m */,
+				FF5E1CA21EF925BE0037223A /* ReverseClipVc.h */,
+				FF5E1CA31EF925BE0037223A /* ReverseClipVc.m */,
+				FF5E1CC71EFA660D0037223A /* RecordVc.h */,
+				FF5E1CC81EFA660D0037223A /* RecordVc.m */,
+				FF5E1CEA1EFA7C2D0037223A /* DecoderVc.h */,
+				FF5E1CEB1EFA7C2D0037223A /* DecoderVc.m */,
 			);
 			path = Vc;
+			sourceTree = "<group>";
+		};
+		FFAB2C961EFE7011006ABFBB /* effects */ = {
+			isa = PBXGroup;
+			children = (
+				FFAB2C9C1EFE7264006ABFBB /* heartShader.vsh */,
+				FFAB2C9B1EFE7264006ABFBB /* heartShader.fsh */,
+				FFAB2C981EFE7069006ABFBB /* circleShader.vsh */,
+				FFAB2C971EFE7069006ABFBB /* circleShader.fsh */,
+				FFAB2CA61F023518006ABFBB /* spliteShader.vsh */,
+				FFAB2CA51F023518006ABFBB /* spliteShader.fsh */,
+				FFAB2CAA1F024C68006ABFBB /* video1Shader.vsh */,
+				FFAB2CA91F024C68006ABFBB /* video1Shader.fsh */,
+			);
+			path = effects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,15 +449,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF3A52011EF001FF0013D13A /* i420Shader.fsh in Resources */,
+				FFAB2CAC1F024C68006ABFBB /* video1Shader.vsh in Resources */,
+				FFAB2C9E1EFE7264006ABFBB /* heartShader.vsh in Resources */,
 				FF3A51271EEFEF860013D13A /* LaunchScreen.storyboard in Resources */,
+				FFAB2CA71F023518006ABFBB /* spliteShader.fsh in Resources */,
+				FFAB2CA81F023518006ABFBB /* spliteShader.vsh in Resources */,
+				FF5E1C921EF7EB200037223A /* 2dShader.fsh in Resources */,
+				FFAB2CAB1F024C68006ABFBB /* video1Shader.fsh in Resources */,
 				FF3A52061EF001FF0013D13A /* blendShader.fsh in Resources */,
 				FF3A51B11EEFF6970013D13A /* sy_0.png in Resources */,
 				FF3A52041EF001FF0013D13A /* nv12Shader.fsh in Resources */,
 				FF3A52001EF001FF0013D13A /* cvPixelBufferShader.fsh in Resources */,
+				FFAB2C991EFE7069006ABFBB /* circleShader.fsh in Resources */,
+				FF5E1CBC1EF934B10037223A /* long.mp4 in Resources */,
+				FF5E1CA11EF9185F0037223A /* b.mp4 in Resources */,
+				FFAB2C9A1EFE7069006ABFBB /* circleShader.vsh in Resources */,
+				FF5E1C931EF7EB200037223A /* 2dShader.vsh in Resources */,
+				FF5E1C951EF7F6BC0037223A /* timg.jpg in Resources */,
 				FF3A51241EEFEF860013D13A /* Assets.xcassets in Resources */,
 				FF3A52051EF001FF0013D13A /* alphaShader.fsh in Resources */,
 				FF3A51B01EEFF6970013D13A /* img2.jpg in Resources */,
+				FFAB2C8E1EFE57DA006ABFBB /* fboShader.vsh in Resources */,
+				FF5E1CBE1EF935120037223A /* a.mp4 in Resources */,
 				FF3A52031EF001FF0013D13A /* modelShader.vsh in Resources */,
+				FFAB2C9D1EFE7264006ABFBB /* heartShader.fsh in Resources */,
+				FF5E1CF21EFA80FC0037223A /* timg.jpg in Resources */,
+				FFAB2CA31EFE74D8006ABFBB /* img1.jpg in Resources */,
+				FFAB2C8D1EFE57DA006ABFBB /* fboShader.fsh in Resources */,
 				FF3A52021EF001FF0013D13A /* modelShader.fsh in Resources */,
 				FF5E1C6D1EF7AB670037223A /* before.mp4 in Resources */,
 				FF3A51221EEFEF860013D13A /* Main.storyboard in Resources */,
@@ -363,10 +494,19 @@
 				FF3A51191EEFEF860013D13A /* main.m in Sources */,
 				FF3A51AC1EEFF65B0013D13A /* CameraTestVc.m in Sources */,
 				FF3A51AD1EEFF65B0013D13A /* ImageTestVc.m in Sources */,
+				FF5E1CEC1EFA7C2D0037223A /* DecoderVc.m in Sources */,
 				FF3A51A71EEFF5EF0013D13A /* HRealTimePDemos.m in Sources */,
+				FF5E1C9E1EF917C60037223A /* MergeVideoVc.m in Sources */,
+				FF5E1CA41EF925BE0037223A /* ReverseClipVc.m in Sources */,
+				FF5E1CC91EFA660D0037223A /* RecordVc.m in Sources */,
 				FF3A519E1EEFF53A0013D13A /* HAllDemos.m in Sources */,
+				FF5E1C8F1EF7E8340037223A /* ImageVBO.m in Sources */,
 				FF3A51A11EEFF58E0013D13A /* HOPenGLESDemos.m in Sources */,
+				FFAB2C951EFE6E6A006ABFBB /* HeartShaderTest.m in Sources */,
+				FFAB2CA11EFE730A006ABFBB /* CircleShaderTest.m in Sources */,
+				FFAB2CAF1F024D3B006ABFBB /* video1ShaderTest.m in Sources */,
 				FF5E1C601EF7A5830037223A /* HAVFoundationDemos.m in Sources */,
+				FF5E1C891EF7E4F00037223A /* FBOTestVc.m in Sources */,
 				FF5E1C701EF7AB880037223A /* SlowDownVc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,6 +633,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../RealTimeProcessing/**",
 					"$(SRCROOT)/../MovieCodec_AVFoundation",
+					"$(SRCROOT)/../PureOpenGLES",
 				);
 				INFOPLIST_FILE = "OPenGLES-Video/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -509,6 +650,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../RealTimeProcessing/**",
 					"$(SRCROOT)/../MovieCodec_AVFoundation",
+					"$(SRCROOT)/../PureOpenGLES",
 				);
 				INFOPLIST_FILE = "OPenGLES-Video/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

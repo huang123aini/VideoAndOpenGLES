@@ -12,6 +12,38 @@
 		FF5E1C321EF3B2B20037223A /* MovieDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1C301EF3B2B20037223A /* MovieDecoder.m */; };
 		FF5E1C5B1EF79D350037223A /* ChangePlaySpeed.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1C591EF79D350037223A /* ChangePlaySpeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF5E1C5C1EF79D350037223A /* ChangePlaySpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1C5A1EF79D350037223A /* ChangePlaySpeed.m */; };
+		FF5E1C7D1EF7BD3F0037223A /* HVideoReader.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1C7B1EF7BD3F0037223A /* HVideoReader.h */; };
+		FF5E1C7E1EF7BD3F0037223A /* HVideoReader.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1C7C1EF7BD3F0037223A /* HVideoReader.m */; };
+		FF5E1C811EF7C30F0037223A /* HVideoWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1C7F1EF7C30F0037223A /* HVideoWriter.h */; };
+		FF5E1C821EF7C30F0037223A /* HVideoWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1C801EF7C30F0037223A /* HVideoWriter.m */; };
+		FF5E1CA71EF926A70037223A /* HImageSequencer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1CA51EF926A70037223A /* HImageSequencer.h */; };
+		FF5E1CA81EF926A70037223A /* HImageSequencer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CA61EF926A70037223A /* HImageSequencer.m */; };
+		FF5E1CAB1EF928640037223A /* HComposer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1CA91EF928640037223A /* HComposer.h */; };
+		FF5E1CAC1EF928640037223A /* HComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CAA1EF928640037223A /* HComposer.m */; };
+		FF5E1CB01EF929090037223A /* HExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1CAE1EF929090037223A /* HExporter.h */; };
+		FF5E1CB11EF929090037223A /* HExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CAF1EF929090037223A /* HExporter.m */; };
+		FF5E1CB41EF929790037223A /* HToolBox.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1CB21EF929790037223A /* HToolBox.h */; };
+		FF5E1CB51EF929790037223A /* HToolBox.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CB31EF929790037223A /* HToolBox.m */; };
+		FF5E1CB81EF9299C0037223A /* HFileHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1CB61EF9299C0037223A /* HFileHandler.h */; };
+		FF5E1CB91EF9299C0037223A /* HFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CB71EF9299C0037223A /* HFileHandler.m */; };
+		FF5E1CC11EFA42400037223A /* HVideoRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1CBF1EFA42400037223A /* HVideoRecorder.h */; };
+		FF5E1CC21EFA42400037223A /* HVideoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CC01EFA42400037223A /* HVideoRecorder.m */; };
+		FF5E1CC51EFA449D0037223A /* HVideoSession.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1CC31EFA449D0037223A /* HVideoSession.h */; };
+		FF5E1CC61EFA449D0037223A /* HVideoSession.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CC41EFA449D0037223A /* HVideoSession.m */; };
+		FF5E1CD61EFA73860037223A /* GLProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1CCE1EFA73860037223A /* GLProgram.h */; };
+		FF5E1CD71EFA73860037223A /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CCF1EFA73860037223A /* GLProgram.m */; };
+		FF5E1CD81EFA73860037223A /* GPUImageContext.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1CD01EFA73860037223A /* GPUImageContext.h */; };
+		FF5E1CD91EFA73860037223A /* GPUImageContext.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CD11EFA73860037223A /* GPUImageContext.m */; };
+		FF5E1CDA1EFA73860037223A /* GPUImageFramebuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1CD21EFA73860037223A /* GPUImageFramebuffer.h */; };
+		FF5E1CDB1EFA73860037223A /* GPUImageFramebuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CD31EFA73860037223A /* GPUImageFramebuffer.m */; };
+		FF5E1CDC1EFA73860037223A /* GPUImageFramebufferCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1CD41EFA73860037223A /* GPUImageFramebufferCache.h */; };
+		FF5E1CDD1EFA73860037223A /* GPUImageFramebufferCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CD51EFA73860037223A /* GPUImageFramebufferCache.m */; };
+		FF5E1CE01EFA744E0037223A /* HVideoDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1CDE1EFA744E0037223A /* HVideoDecoder.h */; };
+		FF5E1CE11EFA744E0037223A /* HVideoDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CDF1EFA744E0037223A /* HVideoDecoder.m */; };
+		FF5E1CE41EFA76780037223A /* HColorConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1CE21EFA76780037223A /* HColorConversion.h */; };
+		FF5E1CE51EFA76780037223A /* HColorConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CE31EFA76780037223A /* HColorConversion.m */; };
+		FF5E1CEF1EFA7EBF0037223A /* HImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E1CED1EFA7EBF0037223A /* HImageView.h */; };
+		FF5E1CF01EFA7EBF0037223A /* HImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E1CEE1EFA7EBF0037223A /* HImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +54,38 @@
 		FF5E1C301EF3B2B20037223A /* MovieDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDecoder.m; sourceTree = "<group>"; };
 		FF5E1C591EF79D350037223A /* ChangePlaySpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePlaySpeed.h; sourceTree = "<group>"; };
 		FF5E1C5A1EF79D350037223A /* ChangePlaySpeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePlaySpeed.m; sourceTree = "<group>"; };
+		FF5E1C7B1EF7BD3F0037223A /* HVideoReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVideoReader.h; sourceTree = "<group>"; };
+		FF5E1C7C1EF7BD3F0037223A /* HVideoReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVideoReader.m; sourceTree = "<group>"; };
+		FF5E1C7F1EF7C30F0037223A /* HVideoWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVideoWriter.h; sourceTree = "<group>"; };
+		FF5E1C801EF7C30F0037223A /* HVideoWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVideoWriter.m; sourceTree = "<group>"; };
+		FF5E1CA51EF926A70037223A /* HImageSequencer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HImageSequencer.h; sourceTree = "<group>"; };
+		FF5E1CA61EF926A70037223A /* HImageSequencer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HImageSequencer.m; sourceTree = "<group>"; };
+		FF5E1CA91EF928640037223A /* HComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HComposer.h; sourceTree = "<group>"; };
+		FF5E1CAA1EF928640037223A /* HComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HComposer.m; sourceTree = "<group>"; };
+		FF5E1CAE1EF929090037223A /* HExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HExporter.h; sourceTree = "<group>"; };
+		FF5E1CAF1EF929090037223A /* HExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HExporter.m; sourceTree = "<group>"; };
+		FF5E1CB21EF929790037223A /* HToolBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HToolBox.h; sourceTree = "<group>"; };
+		FF5E1CB31EF929790037223A /* HToolBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HToolBox.m; sourceTree = "<group>"; };
+		FF5E1CB61EF9299C0037223A /* HFileHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFileHandler.h; sourceTree = "<group>"; };
+		FF5E1CB71EF9299C0037223A /* HFileHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFileHandler.m; sourceTree = "<group>"; };
+		FF5E1CBF1EFA42400037223A /* HVideoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HVideoRecorder.h; path = MovieCodec_AVFoundation/HVideoRecorder.h; sourceTree = SOURCE_ROOT; };
+		FF5E1CC01EFA42400037223A /* HVideoRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HVideoRecorder.m; path = MovieCodec_AVFoundation/HVideoRecorder.m; sourceTree = SOURCE_ROOT; };
+		FF5E1CC31EFA449D0037223A /* HVideoSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HVideoSession.h; path = ../HVideoSession.h; sourceTree = "<group>"; };
+		FF5E1CC41EFA449D0037223A /* HVideoSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HVideoSession.m; path = ../HVideoSession.m; sourceTree = "<group>"; };
+		FF5E1CCE1EFA73860037223A /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLProgram.h; sourceTree = "<group>"; };
+		FF5E1CCF1EFA73860037223A /* GLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLProgram.m; sourceTree = "<group>"; };
+		FF5E1CD01EFA73860037223A /* GPUImageContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageContext.h; sourceTree = "<group>"; };
+		FF5E1CD11EFA73860037223A /* GPUImageContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageContext.m; sourceTree = "<group>"; };
+		FF5E1CD21EFA73860037223A /* GPUImageFramebuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFramebuffer.h; sourceTree = "<group>"; };
+		FF5E1CD31EFA73860037223A /* GPUImageFramebuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFramebuffer.m; sourceTree = "<group>"; };
+		FF5E1CD41EFA73860037223A /* GPUImageFramebufferCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFramebufferCache.h; sourceTree = "<group>"; };
+		FF5E1CD51EFA73860037223A /* GPUImageFramebufferCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFramebufferCache.m; sourceTree = "<group>"; };
+		FF5E1CDE1EFA744E0037223A /* HVideoDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVideoDecoder.h; sourceTree = "<group>"; };
+		FF5E1CDF1EFA744E0037223A /* HVideoDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVideoDecoder.m; sourceTree = "<group>"; };
+		FF5E1CE21EFA76780037223A /* HColorConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HColorConversion.h; sourceTree = "<group>"; };
+		FF5E1CE31EFA76780037223A /* HColorConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HColorConversion.m; sourceTree = "<group>"; };
+		FF5E1CED1EFA7EBF0037223A /* HImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HImageView.h; sourceTree = "<group>"; };
+		FF5E1CEE1EFA7EBF0037223A /* HImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +123,73 @@
 				FF5E1C301EF3B2B20037223A /* MovieDecoder.m */,
 				FF5E1C591EF79D350037223A /* ChangePlaySpeed.h */,
 				FF5E1C5A1EF79D350037223A /* ChangePlaySpeed.m */,
+				FF5E1C7B1EF7BD3F0037223A /* HVideoReader.h */,
+				FF5E1C7C1EF7BD3F0037223A /* HVideoReader.m */,
+				FF5E1C7F1EF7C30F0037223A /* HVideoWriter.h */,
+				FF5E1C801EF7C30F0037223A /* HVideoWriter.m */,
+				FF5E1CE61EFA76CC0037223A /* HVideoRecorder */,
+				FF5E1CCC1EFA73720037223A /* HVideoDecoder */,
+				FF5E1CAD1EF928D90037223A /* reverseClip */,
 				FF5E1C281EF3B2860037223A /* Info.plist */,
 			);
 			path = MovieCodec_AVFoundation;
+			sourceTree = "<group>";
+		};
+		FF5E1CAD1EF928D90037223A /* reverseClip */ = {
+			isa = PBXGroup;
+			children = (
+				FF5E1CA51EF926A70037223A /* HImageSequencer.h */,
+				FF5E1CA61EF926A70037223A /* HImageSequencer.m */,
+				FF5E1CA91EF928640037223A /* HComposer.h */,
+				FF5E1CAA1EF928640037223A /* HComposer.m */,
+				FF5E1CAE1EF929090037223A /* HExporter.h */,
+				FF5E1CAF1EF929090037223A /* HExporter.m */,
+				FF5E1CB61EF9299C0037223A /* HFileHandler.h */,
+				FF5E1CB71EF9299C0037223A /* HFileHandler.m */,
+				FF5E1CB21EF929790037223A /* HToolBox.h */,
+				FF5E1CB31EF929790037223A /* HToolBox.m */,
+			);
+			name = reverseClip;
+			sourceTree = "<group>";
+		};
+		FF5E1CCC1EFA73720037223A /* HVideoDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				FF5E1CCD1EFA73720037223A /* GPUImage */,
+				FF5E1CDE1EFA744E0037223A /* HVideoDecoder.h */,
+				FF5E1CDF1EFA744E0037223A /* HVideoDecoder.m */,
+				FF5E1CED1EFA7EBF0037223A /* HImageView.h */,
+				FF5E1CEE1EFA7EBF0037223A /* HImageView.m */,
+				FF5E1CE21EFA76780037223A /* HColorConversion.h */,
+				FF5E1CE31EFA76780037223A /* HColorConversion.m */,
+			);
+			path = HVideoDecoder;
+			sourceTree = "<group>";
+		};
+		FF5E1CCD1EFA73720037223A /* GPUImage */ = {
+			isa = PBXGroup;
+			children = (
+				FF5E1CCE1EFA73860037223A /* GLProgram.h */,
+				FF5E1CCF1EFA73860037223A /* GLProgram.m */,
+				FF5E1CD01EFA73860037223A /* GPUImageContext.h */,
+				FF5E1CD11EFA73860037223A /* GPUImageContext.m */,
+				FF5E1CD21EFA73860037223A /* GPUImageFramebuffer.h */,
+				FF5E1CD31EFA73860037223A /* GPUImageFramebuffer.m */,
+				FF5E1CD41EFA73860037223A /* GPUImageFramebufferCache.h */,
+				FF5E1CD51EFA73860037223A /* GPUImageFramebufferCache.m */,
+			);
+			path = GPUImage;
+			sourceTree = "<group>";
+		};
+		FF5E1CE61EFA76CC0037223A /* HVideoRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				FF5E1CBF1EFA42400037223A /* HVideoRecorder.h */,
+				FF5E1CC01EFA42400037223A /* HVideoRecorder.m */,
+				FF5E1CC31EFA449D0037223A /* HVideoSession.h */,
+				FF5E1CC41EFA449D0037223A /* HVideoSession.m */,
+			);
+			path = HVideoRecorder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +199,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5E1CEF1EFA7EBF0037223A /* HImageView.h in Headers */,
+				FF5E1CDA1EFA73860037223A /* GPUImageFramebuffer.h in Headers */,
+				FF5E1CE41EFA76780037223A /* HColorConversion.h in Headers */,
 				FF5E1C311EF3B2B20037223A /* MovieDecoder.h in Headers */,
+				FF5E1CD81EFA73860037223A /* GPUImageContext.h in Headers */,
 				FF5E1C291EF3B2860037223A /* MovieCodec_AVFoundation.h in Headers */,
+				FF5E1CB81EF9299C0037223A /* HFileHandler.h in Headers */,
+				FF5E1CB01EF929090037223A /* HExporter.h in Headers */,
+				FF5E1CB41EF929790037223A /* HToolBox.h in Headers */,
+				FF5E1CC11EFA42400037223A /* HVideoRecorder.h in Headers */,
+				FF5E1CE01EFA744E0037223A /* HVideoDecoder.h in Headers */,
+				FF5E1CDC1EFA73860037223A /* GPUImageFramebufferCache.h in Headers */,
+				FF5E1C7D1EF7BD3F0037223A /* HVideoReader.h in Headers */,
+				FF5E1CAB1EF928640037223A /* HComposer.h in Headers */,
+				FF5E1CD61EFA73860037223A /* GLProgram.h in Headers */,
+				FF5E1CC51EFA449D0037223A /* HVideoSession.h in Headers */,
 				FF5E1C5B1EF79D350037223A /* ChangePlaySpeed.h in Headers */,
+				FF5E1C811EF7C30F0037223A /* HVideoWriter.h in Headers */,
+				FF5E1CA71EF926A70037223A /* HImageSequencer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +291,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF5E1C321EF3B2B20037223A /* MovieDecoder.m in Sources */,
+				FF5E1CB11EF929090037223A /* HExporter.m in Sources */,
+				FF5E1C821EF7C30F0037223A /* HVideoWriter.m in Sources */,
+				FF5E1CA81EF926A70037223A /* HImageSequencer.m in Sources */,
+				FF5E1CB51EF929790037223A /* HToolBox.m in Sources */,
+				FF5E1CD71EFA73860037223A /* GLProgram.m in Sources */,
+				FF5E1CD91EFA73860037223A /* GPUImageContext.m in Sources */,
+				FF5E1C7E1EF7BD3F0037223A /* HVideoReader.m in Sources */,
+				FF5E1CE51EFA76780037223A /* HColorConversion.m in Sources */,
+				FF5E1CAC1EF928640037223A /* HComposer.m in Sources */,
+				FF5E1CC61EFA449D0037223A /* HVideoSession.m in Sources */,
+				FF5E1CF01EFA7EBF0037223A /* HImageView.m in Sources */,
+				FF5E1CDB1EFA73860037223A /* GPUImageFramebuffer.m in Sources */,
+				FF5E1CDD1EFA73860037223A /* GPUImageFramebufferCache.m in Sources */,
 				FF5E1C5C1EF79D350037223A /* ChangePlaySpeed.m in Sources */,
+				FF5E1CC21EFA42400037223A /* HVideoRecorder.m in Sources */,
+				FF5E1CB91EF9299C0037223A /* HFileHandler.m in Sources */,
+				FF5E1CE11EFA744E0037223A /* HVideoDecoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

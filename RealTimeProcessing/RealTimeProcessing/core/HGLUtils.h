@@ -34,7 +34,7 @@ extern CGSize _ASSizeFitWithAspectRatio(CGFloat aspectRatio, CGSize constraints)
 /**
  *@通过Image生成TextureID
  */
--(GLuint)createTextureWithImage:(UIImage*)image;
++(GLuint)createTextureWithImage:(UIImage*)image;
 
 
 @end
